@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Aura Development Team</title>
+    <link>https://aura-dev.team/projects/</link>
+    <description>Recent content in Projects on Aura Development Team</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://aura-dev.team/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>One</title>
+      <link>https://aura-dev.team/projects/one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aura-dev.team/projects/one/</guid>
+      <description>Foobar Foobar is a Python library for dealing with word pluralization.
+Installation Use the package manager pip to install foobar.
+pip install foobar  Usage import foobar foobar.pluralize(&#39;word&#39;) # returns &#39;words&#39; foobar.pluralize(&#39;goose&#39;) # returns &#39;geese&#39; foobar.singularize(&#39;phenomena&#39;) # returns &#39;phenomenon&#39;  Contributing Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.</description>
+    </item>
+    
+    <item>
+      <title>Two</title>
+      <link>https://aura-dev.team/projects/two/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aura-dev.team/projects/two/</guid>
+      <description>Two is the 2nd plugin of the number series xd</description>
+    </item>
+    
+  </channel>
+</rss>

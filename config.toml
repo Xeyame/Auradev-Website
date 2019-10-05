@@ -1,0 +1,40 @@
+baseURL = "https://aura-dev.team"
+languageCode = "en-us"
+title = "Aura Development Team"
+theme = "minimal-bootstrap-hugo-theme"
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  post = "/:filename/"
+
+[params]
+  description = "Aura Development Team"
+  contentBackgroundColor = "#000"
+  contentTextColor = "rgba(255, 255, 255, 0.8)"
+  contentLinkColor = "#007bff"
+  contentLinkHoverColor = "#0056b3"
+  navbarBackgroundColor = "#212529"
+  navbarLinkColor = "rgba(255, 255, 255, 0.75)"
+  navbarLinkHoverColor = "rgba(255, 255, 255, 1)"
+  wrapperMaxWidth = "800px"
+  customDateFormat = "Jan 2, 2006"
+  customCodeStyle = true
+  customBlockquoteStyle = true
+  showPostSummary = false
+  cookieConsent = true
+  includeBootstrapJs = false
+  faviconSafariPinnedTabColor = "#5bbad5"
+  faviconMsApplicationTileColor = "#da532c"
+  faviconThemeColor = "#ffffff"
+
+[menu]
+  [[menu.nav]]
+  name = "Home"
+  url = "/"
+  weight = 1
+  [[menu.nav]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 2

@@ -1,0 +1,15 @@
+{{- define "main" -}}
+<h1>Projects</h1>
+<p>Yeet</p>
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ range $pages.ByWeight }}
+<div>
+  <p>
+    <h2><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+    <small class="text-secondary">{{ .Description | markdownify }}</small>
+    <br>
+    <a href='{{ .Params.githuburl}}'>Github</a>
+  </p>
+</div>
+{{ end }}
+{{- end -}}
